@@ -53,3 +53,32 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Styling for the Certifications Section */
+#certifications {
+    margin-bottom: 2rem;
+}
+
+#certifications h2 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#certifications ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#certifications li {
+    margin-bottom: 0.5rem;
+}
+
+#certifications a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+#certifications a:hover {
+    text-decoration: underline;
+}
