@@ -149,3 +149,28 @@ footer {
     border-top: 4px solid #16213e;
     margin-top: 2rem;
 }
+
+/* Responsive styling for LinkedIn link in Contact section */
+#contact p {
+    word-wrap: break-word;
+    margin-bottom: 0.5rem;
+}
+
+#contact a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    #contact {
+        font-size: 0.95rem;
+        padding: 1rem;
+    }
+    #contact p, #contact a {
+        word-break: break-all;
+    }
+}
